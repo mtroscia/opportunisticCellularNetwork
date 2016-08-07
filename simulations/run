@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/cellularnetwork -n .:../src $*
+# for shared lib, use: opp_run -l ../src/cellularnetwork -n .:../src $*
